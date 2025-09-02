@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp">
+
+        <item
+            android:id="@+id/nav_facebook"
+            android:icon="@drawable/facebook_svgrepo_com__3_"
+            android:title="@string/facebook" />
+        <item
+            android:id="@+id/nav_x"
+            android:icon="@drawable/x_icon"
+            android:title="@string/x" />
+        <item
+            android:id="@+id/nav_instagram"
+            android:icon="@drawable/instagram_svgrepo_com"
+            android:title="@string/instagram" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/email_mail_web_svgrepo_com"
+            android:title="@string/contact_us" />
+    </group>
+
+</menu>

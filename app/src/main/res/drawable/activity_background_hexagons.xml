@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Layer 1: The Dark Gradient Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#16213E"
+                android:endColor="#0F172A"
+                android:type="linear" />
+        </shape>
+    </item>
+
+    <!-- Layer 2: A single, large vector drawing of a football icon pattern -->
+    <!-- This avoids the tiling that can cause crashes -->
+    <item>
+        <vector
+            android:width="360dp"
+            android:height="640dp"
+            android:viewportWidth="360"
+            android:viewportHeight="640">
+            <path
+                android:fillColor="#1AFFFFFF"
+                android:pathData="
+                M40,50 A15,15 0 1,0 40,49.9 Z
+                M80,90 L95,80 L110,90 L105,105 L110,120 L95,110 L80,120 L85,105 Z
+                M150,40 L150,20 L180,20 L180,40 L190,40 L190,70 L140,70 L140,40 Z
+                M220,110 A15,15 0 1,0 220,109.9 Z
+                M280,50 L265,40 L250,50 L255,65 L250,80 L265,70 L280,80 L275,65 Z
+                M30,150 L30,130 L60,130 L60,150 L70,150 L70,180 L20,180 L20,150 Z
+                M120,160 A15,15 0 1,0 120,159.9 Z
+                M180,200 L195,190 L210,200 L205,215 L210,230 L195,220 L180,230 L185,215 Z
+                M250,150 L250,130 L280,130 L280,150 L290,150 L290,180 L240,180 L240,150 Z
+                M40,260 A15,15 0 1,0 40,259.9 Z
+                M80,300 L95,290 L110,300 L105,315 L110,330 L95,320 L80,330 L85,315 Z
+                M150,250 L150,230 L180,230 L180,250 L190,250 L190,280 L140,280 L140,250 Z
+                M220,320 A15,15 0 1,0 220,319.9 Z
+                M280,260 L265,250 L250,260 L255,275 L250,290 L265,280 L280,290 L275,275 Z
+                M30,360 L30,340 L60,340 L60,360 L70,360 L70,390 L20,390 L20,360 Z
+                M120,370 A15,15 0 1,0 120,369.9 Z
+                M180,410 L195,400 L210,410 L205,425 L210,440 L195,430 L180,440 L185,425 Z
+                M250,360 L250,340 L280,340 L280,360 L290,360 L290,390 L240,390 L240,360 Z
+                M40,470 A15,15 0 1,0 40,469.9 Z
+                M80,510 L95,500 L110,510 L105,525 L110,540 L95,530 L80,540 L85,525 Z
+                M150,460 L150,440 L180,440 L180,460 L190,460 L190,490 L140,490 L140,460 Z
+                M220,530 A15,15 0 1,0 220,529.9 Z
+                M280,470 L265,460 L250,470 L255,485 L250,500 L265,490 L280,500 L275,485 Z
+                M30,570 L30,550 L60,550 L60,570 L70,570 L70,600 L20,600 L20,570 Z
+                M120,580 A15,15 0 1,0 120,579.9 Z
+                M180,620 L195,610 L210,620 L205,635 L210,650 L195,640 L180,650 L185,635 Z
+                M250,570 L250,550 L280,550 L280,570 L290,570 L290,600 L240,600 L240,570 Z
+                " />
+        </vector>
+    </item>
+
+</layer-list>

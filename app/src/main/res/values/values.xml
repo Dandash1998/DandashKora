@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Transparent fullscreen style for PlayerView container -->
+    <style name="PlayerFullscreen" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <!-- Optional colors for your controller -->
+    <color name="player_progress">@android:color/holo_red_light</color>
+    <color name="player_track">@android:color/darker_gray</color>
+</resources>

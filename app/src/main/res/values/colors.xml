@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#121212</color>
+    <color name="onPrimary_dark">#FFFFFF</color>
+    <color name="primaryContainer_dark">#2C2C2C</color>
+    <color name="onPrimaryContainer_dark">#FFFFFF</color>
+
+    <color name="toolbar_background">#16213E</color>
+    <color name="surface_dark">#2C2C2C</color>
+    <color name="onSurface_dark">#FFFFFF</color>
+    <color name="background_dark">#000000</color>
+    <color name="onBackground_dark">#FFFFFF</color>
+    <color name="splashblack">#0c0c0b</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="navigation_drawer_background">#16213E</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="live_status_red">#FF0000</color>
+    <color name="live_status_green">#00FF00</color>
+    <color name="splash_screen">#181828</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="card_background_dark">#181818</color>
+    <color name="card_background_light">#2C2C2C</color>
+
+    <color name="primary_dark_background">#1C1C1E</color>
+    <color name="card_background">#2C2C2E</color>
+
+
+    <color name="splash_background">#E3F2FD</color>
+    <color name="splash_text_color">#263238</color>
+    <color name="light_gray">#9E9E9E</color>
+    <color name="splash_background_dark">#121212</color>
+    <color name="splash_text_light">#FFFFFF</color>
+
+    <color name="secondary_dark">#CCC2DC</color>
+    <color name="onSecondary_dark">#332D41</color>
+    <color name="secondaryContainer_dark">#4A4458</color>
+    <color name="onSecondaryContainer_dark">#E8DEF8</color>
+    <color name="tertiary_dark">#EFB8C8</color>
+    <color name="onTertiary_dark">#492532</color>
+    <color name="tertiaryContainer_dark">#633B48</color>
+    <color name="onTertiaryContainer_dark">#FFD8E4</color>
+    <color name="error_dark">#F2B8B5</color>
+    <color name="onError_dark">#601410</color>
+    <color name="errorContainer_dark">#8C1D18</color>
+    <color name="onErrorContainer_dark">#FFDAD6</color>
+    <color name="surfaceVariant_dark">#49454F</color>
+    <color name="onSurfaceVariant_dark">#CAC4D0</color>
+    <color name="outline_dark">#938F99</color>
+
+
+    <color name="button_blue">#007AFF</color>
+
+
+</resources>
